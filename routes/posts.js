@@ -15,7 +15,6 @@ router.post("/", async (req,res) => {
 });
 
 
-
 //UPDATE POST
 router.put("/:id", async (req, res) => {
     try{
@@ -64,7 +63,6 @@ router.delete("/:id", async (req, res) => {
 });
 
 
-
 //GET POST
 router.get("/:id", async (req, res) => {
     try {
@@ -74,7 +72,6 @@ router.get("/:id", async (req, res) => {
         res.status(500).json(err);
     }
 });
-
 
 
 //GET ALL POSTS
