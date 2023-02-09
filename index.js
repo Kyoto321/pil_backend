@@ -51,6 +51,6 @@ app.use("/api/categories", categoryRoute);
 //.catch((err) => console.log(err));
 
 
-app.listen("locahost:3000", () => {
+app.listen("locahost:5000", () => {
     console.log("Backend is running.")
 });
